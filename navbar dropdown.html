@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Bootstrap 3 Navigation</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+            <div class="container">
+                <div id="header">
+					<nav class="navbar navbar-inverse">
+						<!--phần header của navbar -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="" class="navbar-brand">Freetuts.net</a>
+						</div>
+						<!--nội dung navbar -->
+						<div class="navbar-collapse collapse" id="menu">
+							<!--phần bên trái -->
+							<ul class="nav navbar-nav">
+								<li><a href="">Trang chủ</a></li>
+								<li><a href="">Giới thiệu</a></li>
+								<li class="dropdown">
+									<a data-toggle="dropdown" href="">Tin tức<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Tin mới</a></li>
+										<li><a href="#">Tin hót</a></li>
+										<div class="divider"></div>
+										<li><a href="#">Tin nổi bật</a></li>
+									</ul>
+								</li>
+								<li><a href="">Thương hiệu</a></li>
+								<li><a href="">Liên hệ</a></li>
+							</ul>
+							
+							<!--phần bên phải -->
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a data-toggle="dropdown" href="">Tài khoản<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Thông tin</a></li>
+										<li><a href="#">Đổi mật khẩu</a></li>
+										<div class="divider"></div>
+										<li><a href="#">Thoát</a></li>
+									</ul>
+								</li>
+							</ul>
+	 
+						</div>
+					</nav>
+				</div>
+            </div>
+    </body>
+</html>
